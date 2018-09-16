@@ -1,5 +1,5 @@
 FROM node
-
+LABEL maintainer uiandwe
 ADD . /src
 
 WORKDIR /src
